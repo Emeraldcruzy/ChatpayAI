@@ -279,7 +279,7 @@ chatpayai/
 
 ### Step 2: Install Dependencies
 ```bash
-git clone https://github.com/your-org/chatpayai.git
+git clone https://github.com/Emeraldcruzy/ChatpayAI.git
 cd chatpayai
 npm install
 ```

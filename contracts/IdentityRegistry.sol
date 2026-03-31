@@ -8,7 +8,7 @@ import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 
 /**
  * @title IdentityRegistry
- * @notice Manages ZK identity tiers for MantleGuard users.
+ * @notice Manages ZK identity tiers for ChatPayAI users.
  *         Tier 0: No proof ($50/day), Tier 1: Basic ZK ($500/day), Tier 2: Advanced ZK (unlimited)
  * @dev Deployed on Mantle L2. Upgrade-safe via UUPS pattern.
  */

@@ -1,5 +1,5 @@
 /**
- * MantleGuard — Full Contract Deployment Script
+ * ChatPayAI — Full Contract Deployment Script
  * 
  * Deploys all 7 contracts to Mantle in correct dependency order,
  * configures roles, and links contracts together.
@@ -12,7 +12,7 @@ import { ethers, upgrades } from 'hardhat';
 async function main() {
   const [deployer] = await ethers.getSigners();
   console.log('═══════════════════════════════════════════');
-  console.log('  MantleGuard — Contract Deployment');
+  console.log('  ChatPayAI — Contract Deployment');
   console.log('═══════════════════════════════════════════');
   console.log(`  Deployer:  ${deployer.address}`);
   console.log(`  Network:   ${(await ethers.provider.getNetwork()).name}`);

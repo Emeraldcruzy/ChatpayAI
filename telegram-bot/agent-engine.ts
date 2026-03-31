@@ -1,5 +1,5 @@
 /**
- * MantleGuard Agent Engine
+ * ChatPayAI Agent Engine
  * 
  * Core AI decision-making module. Takes parsed intents and executes
  * the full pipeline: ZK check → policy → gas → execute → confirm.

@@ -1,5 +1,5 @@
 /**
- * MantleGuard Autonomous Scheduler Service
+ * ChatPayAI Autonomous Scheduler Service
  * 
  * Polls on-chain PaymentScheduler and SubscriptionManager contracts
  * for due payments, then executes them through the ExecutionRouter.

@@ -1,4 +1,4 @@
-# 🛡️ MantleGuard
+# 🛡️ ChatPayAI
 
 ### Autonomous Telegram Financial Agent with ZK Identity, mUSD Payments & MNT-Powered Execution on Mantle
 
@@ -27,7 +27,7 @@ Scheduled payments, subscriptions, and savings automations are table stakes in t
 
 ## 3. Solution Overview
 
-MantleGuard is a Telegram-native AI financial agent that:
+ChatPayAI is a Telegram-native AI financial agent that:
 - **Understands** natural language payment instructions
 - **Verifies** user identity through zero-knowledge proofs
 - **Enforces** spending limits based on ZK-verified identity tiers
@@ -103,7 +103,7 @@ ZK Proof {
 
 ## 6. MNT Token Usage
 
-MNT serves 5 distinct roles in MantleGuard:
+MNT serves 5 distinct roles in ChatPayAI:
 
 | Role | Description | Mechanism |
 |------|-------------|-----------|
@@ -217,7 +217,7 @@ All financial actions require explicit confirmation via inline keyboard buttons 
 ## 11. Project Structure
 
 ```
-mantleguard/
+chatpayai/
 ├── contracts/
 │   ├── IdentityRegistry.sol
 │   ├── SpendingPolicy.sol
@@ -279,8 +279,8 @@ mantleguard/
 
 ### Step 2: Install Dependencies
 ```bash
-git clone https://github.com/your-org/mantleguard.git
-cd mantleguard
+git clone https://github.com/your-org/chatpayai.git
+cd chatpayai
 npm install
 ```
 
@@ -360,7 +360,7 @@ Bot:  ⚠️ Limit Exceeded
 User: "/upgrade"
 Bot:  🔐 ZK Identity Upgrade
       Generate your proof at:
-      https://mantleguard.xyz/verify
+      https://chatpayai.xyz/verify
       Then submit: /verify <proof_hash>
 
 User: "/verify 0xabc123..."
@@ -518,13 +518,13 @@ You're reading it. It covers all 23 required sections.
 ## 23. Why This Benefits Mantle
 
 ### Increases Stablecoin Usage
-Every payment flows through mUSD. MantleGuard drives consistent, recurring stablecoin transaction volume — not just speculative trading.
+Every payment flows through mUSD. ChatPayAI drives consistent, recurring stablecoin transaction volume — not just speculative trading.
 
 ### Increases MNT Utility
 MNT becomes essential infrastructure: gas for every transaction, staking for fee discounts, rewards for operators. This creates sustained demand beyond speculation.
 
 ### Improves UX
-MantleGuard abstracts away wallets, gas, and contract interactions. Users type natural language in Telegram. This is the UX bar that brings mainstream adoption.
+ChatPayAI abstracts away wallets, gas, and contract interactions. Users type natural language in Telegram. This is the UX bar that brings mainstream adoption.
 
 ### Brings Non-Crypto Users
 A Telegram bot that handles payments feels like Venmo or Cash App — not a blockchain application. ZK identity tiers provide a familiar progressive verification flow (like increasing limits on a new bank account).

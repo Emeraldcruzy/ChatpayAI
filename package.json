@@ -1,7 +1,7 @@
 {
-  "name": "mantleguard-bot",
+  "name": "chatpayai-bot",
   "version": "1.0.0",
-  "description": "MantleGuard Telegram AI Financial Agent",
+  "description": "ChatPayAI Telegram AI Financial Agent",
   "type": "module",
   "scripts": {
     "dev": "tsx watch telegram-bot/bot.ts",

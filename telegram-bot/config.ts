@@ -1,5 +1,5 @@
 /**
- * MantleGuard Configuration
+ * ChatPayAI Configuration
  * 
  * Environment variables and contract addresses for all components.
  */

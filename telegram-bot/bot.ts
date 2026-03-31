@@ -1,5 +1,5 @@
 /**
- * MantleGuard Telegram Bot Server
+ * ChatPayAI Telegram Bot Server
  * 
  * Handles: webhook routing, NLP intent parsing, wallet mapping,
  * conversation memory, and confirmation flows.
@@ -158,7 +158,7 @@ const publicClient = createPublicClient({
 
 bot.command('start', async (ctx) => {
   const welcome = `
-🛡️ *MantleGuard* — Your AI Financial Agent
+🛡️ *ChatPayAI* — Your AI Financial Agent
 
 I help you manage payments, schedules, and identity verification on Mantle.
 
@@ -348,7 +348,7 @@ async function handleUpgrade(ctx: Context, wallet: string) {
     `*Tier 2 (Advanced)*: Government ID attestation\n\n` +
     `Your proof is verified on-chain via the IdentityRegistry contract. No PII is stored.\n\n` +
     `🔗 Generate your proof at:\n` +
-    `\`https://mantleguard.xyz/verify\`\n\n` +
+    `\`https://chatpayai.xyz/verify\`\n\n` +
     `Then submit: \`/verify <proof_hash>\``,
     { parse_mode: 'Markdown' }
   );

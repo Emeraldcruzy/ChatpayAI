@@ -4,9 +4,8 @@
 
 ---
 
-## 1. Name + One-Liner
 
-**MantleGuard** — *"Talk to your money. It listens, verifies, and executes — privately, autonomously, on Mantle."*
+**ChatPayAI** — *"Talk to your money. It listens, verifies, and executes — privately, autonomously, on Mantle."*
 
 ---
 
